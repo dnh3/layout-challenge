@@ -1,0 +1,141 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:300);
+@import url(https://fonts.googleapis.com/css?family=Lato:400,300italic);
+
+@media screen and (min-width: 992px) {
+	body {
+		background: url('../img/background.jpg');
+		background-size: 100% 100%;
+		background-repeat: no-repeat;
+		background-attachment: fixed;
+		font-size: 18px;
+	}
+
+	main {
+		margin-left: 30%;
+		margin-right: 20px;
+		margin-top: 20px;
+		margin-bottom: 20px;
+	}
+	
+	nav {
+		position: absolute;
+		top: 28px;
+		right: 38px;
+	}
+}
+
+@media screen and (max-width: 992px) {
+	header p {
+		display: none;
+	}
+}
+
+ul {
+	list-style-type: none;
+	padding: 0px;
+	margin: 0px;
+}
+
+li {
+	display: inline-block;
+	margin-right: 1em;
+}
+
+body {
+	font-family: 'Lato', 'Helvetica Neue', 'Helvetica','sans-serif';
+	font-size: 16px;
+	font-weight: 300;
+}
+
+.container-fluid {
+	margin-bottom: 0px;
+	margin-top: 0px;
+}
+
+a:link {
+	color: #55E;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #55E;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #00E;
+	text-decoration: none;
+}
+
+a:focus {
+	color: #00E;
+	text-decoration: none;
+}
+
+h1 {
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica','sans-serif';
+	font-weight: 300;
+	font-size: 300%;
+	margin: 0;
+}
+
+h2 {
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica','sans-serif';
+	font-weight: 300;
+	font-size: 150%;
+	color: #505050;
+}
+
+h3 {
+	font-family: 'Raleway', 'Helvetica Neue', 'Helvetica','sans-serif';
+	font-weight: 300;
+	font-size: 125%;
+	color: #505050;
+}
+
+main {
+	background: url('../img/ricepaper_v3.png');
+	opacity: 0.9;
+}
+
+header {
+	padding: 1em;
+	background-color: #FA5A0F;
+	border-bottom: 5px solid #EA4A00;
+	color: #FFFFFF;
+}
+
+header p {
+	font-size: 120%;
+	color: #EEEEEE;
+	margin: 0;
+}
+
+article {
+	padding: 1em;
+}
+
+menu {
+	padding: 1em;
+	background-color: rgb(207, 205, 140);
+	background-opacity: 0.5;
+}
+
+menu dt {
+	font-weight: 400;
+}
+
+menu dd {
+	font-size: 80%;
+	font-style: italic;
+	margin-right: 1em;
+	margin-left: 1em;
+}
+
+footer {
+	padding: 1em;
+	background-color: #FC892F;
+	border-top: 5px solid #EC791F;
+	font-size: 80%;
+	text-align: right;
+}
